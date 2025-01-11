@@ -39,5 +39,11 @@ footer {
 }
 
 .enterPortal{
-    width: 100%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 60vh;
+
 }
