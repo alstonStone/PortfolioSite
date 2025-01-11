@@ -1,0 +1,43 @@
+/*
+This is a multi-line CSS comment.
+Use it for longer notes.
+*/
+.colors{
+    color: black;
+    color: #040f0f;
+    color: #ffffff;
+    color: #bebfc4;
+    color: #183C28;
+    color: #eec643;
+}
+
+:root {
+    cursor: url('assets/glove3.png'), auto;
+    background-color: black;
+    color: #bebfc4;
+    font-family: garamond;
+}
+
+header{
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
+
+a{
+    color: #eec643;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    background-color: #183C28;
+    color: #eec643;
+}
+
+.enterPortal{
+    width: 100%;
+}
