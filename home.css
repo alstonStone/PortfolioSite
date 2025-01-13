@@ -20,7 +20,7 @@ Use it for longer notes.
 
 header{
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
 }
 
@@ -38,12 +38,27 @@ footer {
     color: #eec643;
 }
 
-.enterPortal{
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80vw;
-    height: 60vh;
+.mainSelectionPortals{
+    display: flex; 
+    justify-content: center; /* Align images horizontally */ 
+    align-items: center; /* Align images vertically */ 
+    position: relative; /* To ensure correct stacking */ 
+    width: 100wv; 
+    height: 80vh; 
+    overflow: hidden;
+}
 
+.mainSelectionPortals img.portalArches {
+    position: absolute; /* Stack images on top of each other */ 
+    width: 100vw; 
+    height: 80vh; 
+}
+
+.mainSelectionPortals img.portal_1 {
+    position: absolute; /* Stack images on top of each other */ 
+    padding-top: 23Vh;
+    width: 60vw;
+    height: 65vh; 
+    
 }
