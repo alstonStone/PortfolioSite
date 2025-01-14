@@ -55,10 +55,27 @@ footer {
     height: 80vh; 
 }
 
-.mainSelectionPortals img.portal_1 {
+.mainSelectionPortals img.portal {
     position: absolute; /* Stack images on top of each other */ 
     padding-top: 23Vh;
     width: 60vw;
     height: 65vh; 
     
+}
+
+.dot {
+    position: absolute; /* Stack images on top of each other */ 
+    margin-top: 22vh;
+    width: 20vw;
+    height: 30vh; 
+    opacity: 10;
+    border-radius: 50%;
+}
+
+.dot:hover {
+    cursor: url('assets/glove1.png'), auto;
+}
+
+.dot:active {
+    cursor: url('assets/glove2.png'), auto;
 }
